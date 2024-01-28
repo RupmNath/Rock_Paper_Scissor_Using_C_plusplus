@@ -14,14 +14,17 @@ char get_Computer_Move()
       // Nested if-else for moves
       if (move == 0)
       {
+            cout<<"computer move: p"<<endl;
             return 'p';
       }
       else if (move == 1)
       {
+            cout<<"computer move: s"<<endl;
             return 's';
       }
       else
       {
+            cout<<"computer move: r"<<endl;
             return 'r';
       }
 }
